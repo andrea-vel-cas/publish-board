@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Header, Text, Button, Avatar, Tag, Grid } from 'tabler-react';
+import { Card, Tag, Grid } from 'tabler-react';
 import teams from '../content/teams-content';
 import CommentsList from '../components/CommentsList';
 import Authors from '../components/Authors';

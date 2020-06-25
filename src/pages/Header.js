@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Nav, Button, Site, Grid } from 'tabler-react';
-import { onSignIn } from '../services/AuthProvider';
+import { Nav, /*Button,*/ Site } from 'tabler-react';
+//import { onSignIn } from '../services/AuthProvider';
 
 const Header = () => (
 

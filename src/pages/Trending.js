@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, StampCard, Card, Dimmer } from 'tabler-react';
+import { Grid, StampCard } from 'tabler-react';
 import CardPR from '../components/CardPR';
 import CardTeams from '../components/CardTeams';
 import CardEmail from '../components/CardEmail';

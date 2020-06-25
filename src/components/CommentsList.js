@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Text } from 'tabler-react';
+import { Timeline } from 'tabler-react';
 
 const CommentsList = ({ comments }) => {
     return (
