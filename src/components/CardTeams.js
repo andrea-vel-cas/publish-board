@@ -10,7 +10,7 @@ const CardTeams = ({ id }) => {
 
     return (
         <>
-            <Card isCollapsible isCollapsed title={content.name}  >
+            <Card isCollapsible isCollapsed title={content.channel}  >
                 <Card.Status color="purple" side />
                 <Card.Body>
                     <CommentsList comments={content.comments} />

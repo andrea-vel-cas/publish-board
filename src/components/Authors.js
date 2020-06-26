@@ -5,8 +5,8 @@ const Authors = ({ authors }) => {
     return (
     <>
     <Avatar.List>
-    {authors.map((author, key) => (
-        <Avatar size="md" color="cyan"/*imageURL={url}*/ >
+    {authors.map((author) => (
+        <Avatar key={author.name} size="md" color="cyan"/*imageURL={url}*/ >
             {author.name}
         </Avatar>
     ))}

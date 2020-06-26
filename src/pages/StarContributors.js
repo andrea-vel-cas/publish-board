@@ -31,8 +31,8 @@ const StarContributors = () => {
                             <Grid.Col>
                                 <Table highlightRowOnHover>
                                     <Table.Body>
-                                        {left.map((user, key) => (
-                                            <Table.Row>
+                                        {left.map((user) => (
+                                            <Table.Row key={user.id}>
                                                 <Table.Col><Avatar imageURL={user.url} /></Table.Col>
                                                 <Table.Col><Header.H6>{user.name}</Header.H6></Table.Col>
                                                 <Table.Col>
@@ -50,8 +50,8 @@ const StarContributors = () => {
                             <Grid.Col>
                             <Table highlightRowOnHover>
                                     <Table.Body>
-                                        {right.map((user, key) => (
-                                            <Table.Row>
+                                        {right.map((user, id) => (
+                                            <Table.Row key={user.id}>
                                                 <Table.Col><Avatar imageURL={user.url} /></Table.Col>
                                                 <Table.Col><Header.H6>{user.name}</Header.H6></Table.Col>
                                                 <Table.Col>

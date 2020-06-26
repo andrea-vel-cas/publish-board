@@ -9,13 +9,15 @@ const Trending = () => (
         <StampCard icon="trending-up" header="Trending topics" color="azure" />
         <Grid.Row cards> 
             <Grid.Col>
-                <CardPR id={1}/>
+                <CardPR id={10}/>
+                <CardPR id={30}/>
             </Grid.Col>
             <Grid.Col>
-                <CardTeams id={1}/>
+                <CardTeams id={100}/>
             </Grid.Col>
             <Grid.Col>
                 <CardEmail id={1}/>
+                <CardEmail id={2}/>
             </Grid.Col>
         </Grid.Row>
     </>

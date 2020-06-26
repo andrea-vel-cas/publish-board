@@ -4,8 +4,8 @@ import { Timeline } from 'tabler-react';
 const CommentsList = ({ comments }) => {
     return (
     <>
-    {comments.map((comment, key) => (
-        <Timeline.Item active badgeColor="lime" title={comment.user} description={comment.comment} />
+    {comments.map((comment) => (
+        <Timeline.Item key={comment.key} active badgeColor="lime" title={comment.user} description={comment.comment} />
     ))}
     </>
     );

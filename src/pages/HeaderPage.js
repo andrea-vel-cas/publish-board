@@ -3,7 +3,7 @@ import React from 'react';
 import { Nav, /*Button,*/ Site } from 'tabler-react';
 //import { onSignIn } from '../services/AuthProvider';
 
-const Header = () => (
+const HeaderPage = () => (
 
     /*const login = (async () => {
         await onSignIn(false);
@@ -19,13 +19,13 @@ const Header = () => (
     <>
         <Site.Nav>
                 <Nav>
-                    <Nav.Item value="Home" to="/" icon="home" useExact="true" />
-                    <Nav.Item  icon="file-text" value="Documentation" to="/" />
-                    <Nav.Item  icon="box" value="About" to="/" />
+                    <Nav.Item value="Trending" to="/" icon="home" useExact="true" />
+                    <Nav.Item icon="file-text" value="Topics by Feed" to="/by-feed" useExact="true"/>
+                    <Nav.Item icon="box" value="About" to="/about" useExact="true" />
                 </Nav>
         </Site.Nav>
     </>
 );
 //}
 
-export default Header;
+export default HeaderPage;
