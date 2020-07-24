@@ -10,10 +10,10 @@ const About = () => {
             <HeaderPage />
             <Page.Content title="">
                 <BlogCard
-                    title="Hack week! "
+                    title="Hack project! "
                     postUrl="#"
                     description="Pandemic time has made as aware of how badly we need to collaborate in hard situations, mostly online. 
-                                As we know we all communicate in diverse ways and thorugh different channels. 
+                                As we know we all communicate in diverse ways and through different channels. 
                                 This is my attempt to bring awareness of this to everyone while we are all in the same loop."
                     avatarImgSrc={me.url}
                     authorName={me.name}
@@ -29,7 +29,7 @@ const About = () => {
                         Team collaboration
                     </Badge>
                     <Badge color="secondary" className="mr-1">
-                        ReconIntelligence
+                        Microsoft Values
                     </Badge>
                     <Badge color="info" className="mr-1">
                         React
@@ -41,7 +41,7 @@ const About = () => {
                         Diversity
                     </Badge>
                     <Badge color="danger" className="mr-1">
-                        Hack Week
+                        Hackathon
                     </Badge>
                 </p>
             </Page.Content>
